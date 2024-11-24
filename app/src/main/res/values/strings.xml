@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Login</string>
+    <string name="enter_password" >Password</string>
+    <string name="enter_email" >Email</string>
+    <string name="welcome">welcome</string>
+    <string name="logout">Logout</string>
+    <string name="app_name">곱창마카롱</string>
+    <string name="title_search">검색</string>
+    <string name="title_community">커뮤니티</string>
+    <string name="title_myhome">마이페이지</string>
+    <string name="title_record">기록</string>
+    <string name="title_home">홈</string>
+    <string name="title_dashboard">대시보드</string>
+    <string name="login_message">
+        "소프트웨어캡스톤디자인_곱창마카롱팀"</string>
+    <string name="take_photo">촬영</string>
+    <string name="start_capture">캡처시작</string>
+    <string name="stop_capture">캡처종료</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- 커뮤니티 타이틀 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="커뮤니티"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다이어트와 관련된 커뮤니티와 연결됩니다!"
+        android:textSize="14sp"
+        android:textColor="#888888"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- 다이어트 관련카페 이미지뷰 -->
+    <ImageView
+        android:id="@+id/naverCafeImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/naver_cafe"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="네이버 카페로 연결되는 이미지"/>
+
+    <!-- 디스코드 서버 이미지뷰 -->
+    <ImageView
+        android:id="@+id/discordImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/discord_image"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="디스코드 서버로 연결되는 이미지"/>
+
+    <!-- 추가문의 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추가문의 : @곱창마카롱팀"
+        android:textSize="14sp"
+        android:textColor="#0000FF"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>
